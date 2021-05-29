@@ -1,6 +1,6 @@
 <template>
   <div class="OrderMore">
-    <div class="flex-1">
+    <div class="md:flex">
       <strong>Закажите ещё и получите подарок</strong>
       <strong>301.-</strong>
     </div>
@@ -14,10 +14,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.LoadBar {
-  height: 3px;
-  width: 200px;
-  background: #009200;
-  border-right: solid 10px #C4C4C4;;
+.OrderMore {
+  height: auto;
 }
 </style>
