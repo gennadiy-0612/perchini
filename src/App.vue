@@ -1,20 +1,25 @@
 <template>
   <div id="app">
+    <X/>
     <Photo msg="Photo"/>
     <DescriptionPrice msg="DescriptionPrice"/>
     <AlsoBuy msg="Вместе с этим также покупают"/>
-    <AlsoItem/>
-    <AlsoItem/>
-    <AlsoItem/>
-    <AlsoItem/>
-    <AlsoItem/>
-    <AlsoItem/>
+    <div class="flex-auto justify-center">
+      <X/>
+      <AlsoItem/>
+      <AlsoItem/>
+      <AlsoItem/>
+      <AlsoItem/>
+      <AlsoItem/>
+      <AlsoItem/>
+    </div>
     <LoadBar/>
     <OrderMore/>
   </div>
 </template>
 
 <script>
+import X from './components/X.vue'
 import Photo from './components/Photo.vue'
 import DescriptionPrice from './components/DescriptPrice.vue'
 import AlsoBuy from './components/AlsoBuy.vue'
@@ -25,6 +30,7 @@ import OrderMore from './components/OrderMore.vue'
 export default {
   name: 'App',
   components: {
+    X,
     Photo,
     DescriptionPrice,
     AlsoBuy,
@@ -37,11 +43,6 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 16px;
 }
 </style>
