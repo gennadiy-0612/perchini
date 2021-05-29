@@ -9,3 +9,11 @@
 .ml-mr16 {
     margin: 0 16px;
 }
+
+.flex-two-col {
+    flex: 1 1 50%;
+}
+
+.max-w-40 {
+    max-width: 40%;
+}

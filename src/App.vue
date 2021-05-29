@@ -2,10 +2,9 @@
   <div id="app">
     <X/>
     <Photo msg="Photo"/>
-    <DescriptionPrice msg="DescriptionPrice"/>
+    <DescriptionPrice msg="Пепперони"/>
     <AlsoBuy msg="Вместе с этим также покупают"/>
-    <div class="flex-auto justify-center">
-      <X/>
+      <div class="flex-auto justify-center flex flex-wrap">
       <AlsoItem/>
       <AlsoItem/>
       <AlsoItem/>
