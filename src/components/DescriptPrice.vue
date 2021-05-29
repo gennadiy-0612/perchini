@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'Пепперони',
+  name: 'Description',
   props: {
     msg: String
   }
