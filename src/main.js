@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Photo from './Photo.vue'
-import Desc from './DescriptPrice'
-
+module.exports = {
+    plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+    ]
+}
 Vue.config.productionTip = false
 
 new Vue({
-    render: h => h(App, Photo, Desc),
+    render: h => h(App),
 }).$mount('#app')
 

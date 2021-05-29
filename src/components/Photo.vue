@@ -1,12 +1,12 @@
 <template>
   <div class="Photo">
-    <h1>{{ msg }}</h1>
+    <img src="../assets/img/Photo.svg">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Фото',
+  name: 'Photo',
   props: {
     msg: String
   }

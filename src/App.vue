@@ -1,23 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
     <Photo msg="Photo"/>
-    <DescriptPrice msg="DescriptPrice"/>
+    <DescriptionPrice msg="DescriptionPrice"/>
+    <AlsoBuy msg="Вместе с этим также покупают"/>
+    <AlsoItem/>
+    <AlsoItem/>
+    <AlsoItem/>
+    <AlsoItem/>
+    <AlsoItem/>
+    <AlsoItem/>
+    <LoadBar/>
+    <OrderMore/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Photo from './components/Photo.vue'
-import DescriptPrice from './components/DescriptPrice.vue'
+import DescriptionPrice from './components/DescriptPrice.vue'
+import AlsoBuy from './components/AlsoBuy.vue'
+import AlsoItem from './components/AlsoItem.vue'
+import LoadBar from './components/LoadBar.vue'
+import OrderMore from './components/OrderMore.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Photo,
-    DescriptPrice
+    DescriptionPrice,
+    AlsoBuy,
+    AlsoItem,
+    LoadBar,
+    OrderMore
   }
 }
 </script>
