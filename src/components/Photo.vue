@@ -1,13 +1,12 @@
 <template>
   <div class="Photo">
     <h1>{{ msg }}</h1>
-    <p>Photo</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Photo',
+  name: 'Фото',
   props: {
     msg: String
   }
