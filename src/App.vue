@@ -20,13 +20,13 @@
 </template>
 
 <script>
-import X from './components/X.vue'
-import Photo from './components/Photo.vue'
-import DescriptionPrice from './components/DescriptPrice.vue'
-import AlsoBuy from './components/AlsoBuy.vue'
-import AlsoItem from './components/AlsoItem.vue'
-import LoadBar from './components/LoadBar.vue'
-import OrderMore from './components/OrderMore.vue'
+import X from './components/popupbluda/X.vue'
+import Photo from './components/popupbluda/Photo.vue'
+import DescriptionPrice from './components/popupbluda/DescriptPrice.vue'
+import AlsoBuy from './components/popupbluda/AlsoBuy.vue'
+import AlsoItem from './components/popupbluda/AlsoItem.vue'
+import LoadBar from './components/popupbluda/LoadBar.vue'
+import OrderMore from './components/popupbluda/OrderMore.vue'
 
 export default {
   name: 'App',

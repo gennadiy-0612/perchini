@@ -63,8 +63,9 @@
     }
 
     .sizes114x77 {
-        width: 114px;
-        height: 77px;
+        width: 100%;
+        min-width: 114px;
+        min-height: 77px;
     }
 
     .p-10 {
