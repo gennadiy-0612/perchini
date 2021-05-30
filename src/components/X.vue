@@ -4,9 +4,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
-.X {
-  margin: auto 10px auto auto;
+@media (max-width: 1069px) {
+  .X {
+    margin: auto 10px auto auto;
+  }
 }
-
 </style>

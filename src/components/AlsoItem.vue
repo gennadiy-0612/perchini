@@ -10,8 +10,10 @@
 </template>
 
 <style scoped>
-.AlsoItem {
-  padding: 7px 10px 0;
-  margin: 14px 0 6px;
+@media (max-width: 1069px) {
+  .AlsoItem {
+    padding: 7px 10px 0;
+    margin: 14px 0 6px;
+  }
 }
 </style>

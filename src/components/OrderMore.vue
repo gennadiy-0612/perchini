@@ -8,24 +8,28 @@
       <p class="Ag-text16-to-1070">Сумма заказа</p>
       <p class="Ag-text16-to-1070 fs22">1 049.-</p>
     </div>
-    <p class="OrderMore-add-to-card Ag-text18-to-1070">Добавить в корзину</p>
+    <p class="OrderMore-add-to-card Ag-text18-to-1070 transform motion-safe:hover:-translate-y-1 motion-safe:hover:scale-110 transition ease-in-out duration-300">
+      Добавить в корзину</p>
   </div>
 </template>
 
 <style scoped>
-.sum {
-  margin: 6px 0 9px;
-}
+@media (max-width: 1069px) {
+  .sum {
+    margin: 6px 0 9px;
+  }
 
-.OrderMore-add-to-card {
-  background: #009200;
-  color: #ffffff;
-  text-align: center;
-  line-height: 45px;
-  font-weight: 600;
-}
-.fs22{
-  font-size: 20px;
-  letter-spacing: -0.9px;
+  .OrderMore-add-to-card {
+    background: #009200;
+    color: #ffffff;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 600;
+  }
+
+  .fs22 {
+    font-size: 20px;
+    letter-spacing: -0.9px;
+  }
 }
 </style>
