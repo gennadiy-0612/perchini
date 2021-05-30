@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
 
 .width-full {
@@ -6,6 +7,10 @@
 
 .X {
     margin: 10px 0 10px auto;
+}
+
+.m-top5 {
+    margin-top: 5px;
 }
 
 .m-top11 {
@@ -24,8 +29,20 @@
     margin-top: 21px;
 }
 
+.m-top27 {
+    margin-top: 27px;
+}
+
 .m-top30 {
     margin-top: 30px;
+}
+
+.mt14-mb5 {
+    margin: 14px 0 5px;
+}
+
+.m-tb14 {
+    margin: 14px 0;
 }
 
 .m-r16 {
@@ -34,6 +51,10 @@
 
 .mt-mb16 {
     margin: 16px 0;
+}
+
+.mt5-mb10 {
+    margin: 5px 0 10px;
 }
 
 .m-16px {
@@ -49,17 +70,13 @@
     padding: 10px;
 
 }
-.p-b-30 {
-    padding: 30px;
-
-}
 
 .flex-two-col {
     flex: 1 1 50%;
 }
 
-.max-w-50 {
-    max-width: 50%;
+.max-w-46-4 {
+    max-width: 46.4%;
 }
 
 .E6E6E6 {

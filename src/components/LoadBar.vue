@@ -1,5 +1,5 @@
 <template>
-  <div class="LoadBar width-full mt-mb16"></div>
+  <div class="LoadBar width-full m-top27 relate"></div>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -8,5 +8,6 @@
   height: 5px;
   background: #009200;
   border-right: solid 10px #C4C4C4;
+  margin: 23px 0 11px;
 }
 </style>
