@@ -3,7 +3,7 @@
     <X/>
     <Photo msg="Photo"/>
     <DescriptionPrice msg="Пепперони"/>
-    <AlsoBuy msg="Вместе с этим также покупают"/>
+    <AlsoBuy/>
 
     <div class="flex-auto justify-between flex flex-wrap">
       <AlsoItem/>
