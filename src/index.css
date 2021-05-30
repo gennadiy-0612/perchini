@@ -5,7 +5,31 @@
 }
 
 .X {
-    margin: 10px 10px 10px auto;
+    margin: 10px 0 10px auto;
+}
+
+.m-top11 {
+    margin-top: 11px;
+}
+
+.m-top14 {
+    margin-top: 14px;
+}
+
+.m-top16 {
+    margin-top: 16px;
+}
+
+.m-top21 {
+    margin-top: 21px;
+}
+
+.m-top30 {
+    margin-top: 30px;
+}
+
+.m-r16 {
+    margin-right: 16px;
 }
 
 .mt-mb16 {
@@ -14,6 +38,20 @@
 
 .m-16px {
     margin: 16px;
+}
+
+.sizes114x77 {
+    width: 114px;
+    height: 77px;
+}
+
+.p-10 {
+    padding: 10px;
+
+}
+.p-b-30 {
+    padding: 30px;
+
 }
 
 .flex-two-col {

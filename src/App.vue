@@ -4,7 +4,7 @@
     <Photo msg="Photo"/>
     <DescriptionPrice msg="Пепперони"/>
     <AlsoBuy msg="Вместе с этим также покупают"/>
-      <div class="flex-auto justify-center flex flex-wrap">
+      <div class="flex-auto justify-center flex flex-wrap m-top21">
       <AlsoItem/>
       <AlsoItem/>
       <AlsoItem/>
