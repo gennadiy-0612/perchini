@@ -1,11 +1,11 @@
 <template>
   <div class="Description">
-    <h1>{{ msg }}</h1>
-    <p>Средняя 30 см, традиционное тесто, 700 г</p>
-    <p>СрПикантная колбаса Пепперони,
+    <h3 class="Ag-h3-to-1070">{{ msg }}</h3>
+    <p class="Ag-text12-to-1070">Средняя 30 см, традиционное тесто, 700 г</p>
+    <p class="Ag-text14-to-1070">Пикантная колбаса Пепперони,
       свежие томаты, маслины, каперсы,
       сыр Моцарелла и соус Помадоро</p>
-    <p>610.-</p>
+    <h3 class="Ag-h3-to-1070">610.-</h3>
   </div>
 </template>
 
@@ -17,24 +17,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
-</style>

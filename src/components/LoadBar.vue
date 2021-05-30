@@ -1,5 +1,5 @@
 <template>
-  <div class="LoadBar width-full"></div>
+  <div class="LoadBar width-full mt-mb16"></div>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

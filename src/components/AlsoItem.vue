@@ -1,9 +1,9 @@
 <template>
-  <div class="AlsoItem ml-mr16 max-w-40">
+  <div class="AlsoItem max-w-50 E6E6E6">
     <img class="ml-auto mr-auto" src="../assets/img/Photo.svg"/>
-    <p>Морс в ассортименте</p>
+    <p class="Ag-text14-to-1070">Морс в ассортименте</p>
     <div class="flex justify-between">
-      <p>179.-</p>
+      <h3 class="Ag-h3-to-1070">179.-</h3>
       <img src="../assets/img/alsobuy.svg"/>
     </div>
   </div>

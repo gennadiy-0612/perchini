@@ -1,6 +1,6 @@
 <template>
   <div class="AlsoBuy">
-    <h1>{{ msg }}</h1>
+    <h3  class="Ag-h3-to-1070">{{ msg }}</h3>
   </div>
 </template>
 

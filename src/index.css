@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+
 .width-full {
     width: 100%;
 }
@@ -6,14 +8,42 @@
     margin: 10px 10px 10px auto;
 }
 
-.ml-mr16 {
-    margin: 0 16px;
+.mt-mb16 {
+    margin: 16px 0;
+}
+
+.m-16px {
+    margin: 16px;
 }
 
 .flex-two-col {
     flex: 1 1 50%;
 }
 
-.max-w-40 {
-    max-width: 40%;
+.max-w-50 {
+    max-width: 50%;
+}
+
+.E6E6E6 {
+    background-color: #E6E6E6;
+}
+
+.Ag-h3-to-1070 {
+    font: normal 600 18px/22px 'Montserrat';
+}
+
+.Ag-text12-to-1070 {
+    font: normal 400 12px/18px 'Montserrat';
+}
+
+.Ag-text14-to-1070 {
+    font: normal 400 14px/21px 'Montserrat';
+}
+
+.Ag-text16-to-1070 {
+    font: normal 400 16px/20px 'Montserrat';
+}
+
+.Ag-text18-to-1070 {
+    font: normal 400 18px/22px 'Montserrat';
 }

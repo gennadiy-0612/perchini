@@ -1,20 +1,13 @@
 <template>
   <div class="OrderMore">
-    <div class="md:flex">
-      <strong>Закажите ещё и получите подарок</strong>
-      <strong>301.-</strong>
+    <div class="flex justify-between">
+      <h3 class="Ag-h3-to-1070">Закажите ещё и получите подарок</h3>
+      <h3 class="Ag-h3-to-1070">301.-</h3>
     </div>
-    <div>
-      <p>Сумма заказа</p>
-      <p>1 049.-</p>
+    <div class="flex justify-between">
+      <p class="Ag-text16-to-1070">Сумма заказа</p>
+      <p class="Ag-text16-to-1070">1 049.-</p>
     </div>
     <p>Добавить в корзину</p>
   </div>
 </template>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.OrderMore {
-  height: auto;
-}
-</style>
